@@ -11,8 +11,10 @@ jobs:
       with:
         node-version: '10.x'
     - name: Install dependencies
+      working-directory: ./frontend
       run: | 
         npm install
     - name: Run test
+      working-directory: ./frontend
       run: | 
           npm test
