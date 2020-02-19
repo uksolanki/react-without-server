@@ -1,8 +1,6 @@
 name: React Workflow
 on:
-  pull_request:
-    branches:
-    - master
+  push
 jobs:
   build-frontend:
     name: React test front-end
