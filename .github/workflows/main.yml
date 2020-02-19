@@ -16,7 +16,3 @@ jobs:
     - name: Run test
       run: | 
           npm test
-    - name: Heroku push server
-      run: | 
-          heroku git:remote -a reat-without-server
-          git push heroku master
