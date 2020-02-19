@@ -14,5 +14,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@master # This is the action
         with:
           heroku_api_key: "78f32b77-4b0a-44cb-853f-985062a98646"
-          heroku_app_name: "test-react-demo"
+          heroku_app_name: "reat-without-server"
           heroku_email: "postntest@gmail.com"
