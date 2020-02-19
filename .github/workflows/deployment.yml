@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: akhileshns/heroku-deploy@master # This is the action
+      - uses: akhileshns/heroku-deploy@master # This is the not action
         with:
           heroku_api_key: "78f32b77-4b0a-44cb-853f-985062a98646"
           heroku_app_name: "reat-without-server"
